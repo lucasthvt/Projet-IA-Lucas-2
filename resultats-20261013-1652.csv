@@ -1,0 +1,31 @@
+﻿cas;essai;nom;fournisseur;verdict;duree_s;reponse
+1;1;Prêt DVD;ovh;juste;0.99;Vous pouvez emprunter jusqu'à 4 DVD à la fois. Source : article 4.
+1;2;Prêt DVD;ovh;juste;0.57;Vous pouvez emprunter jusqu'à 4 DVD à la fois. Source : article 4
+1;3;Prêt DVD;ovh;juste;0.71;Vous pouvez emprunter jusqu'à 4 DVD à la fois. Source : article 4.
+2;1;Retard 2 livres;ovh;juste;1.32;Le retard coûte 0,20 € par jour et par document, plafonné à 5 € par document. Pour 12 jours de retard sur 2 livres, cela fait 2 × (12 × 0,20) = 4,80 €. Source : article 6
+2;2;Retard 2 livres;ovh;juste;1.5;Le retard coûte 0,20 € par jour et par document, plafonné à 5 € par document. Pour 12 jours de retard sur 2 livres, cela fait 12 × 0,20 € × 2 = 4,80 €. Source : article 6
+2;3;Retard 2 livres;ovh;juste;1.62;Le retard coûte 0,20 € par jour et par document, plafonné à 5 € par document. Pour 12 jours de retard sur 2 livres, le calcul est : 12 jours × 2 livres × 0,20 € = 4,80 €. Source : article 6.
+3;1;Retard 3 livres plafond;ovh;juste;1.3;Le calcul est : 3 livres × 40 jours × 0,20 € = 24 €. La pénalité est plafonnée à 5 € par document, donc 3 × 5 € = 15 €. Source : article 6
+3;2;Retard 3 livres plafond;ovh;juste;1.24;Le calcul est : 3 livres × 40 jours × 0,20 € = 24 €. La pénalité est plafonnée à 5 € par document, donc 3 × 5 € = 15 €. Source : article 6
+3;3;Retard 3 livres plafond;ovh;juste;1.35;Le calcul est : 3 livres × 40 jours × 0,20 € = 24 €. La pénalité est plafonnée à 5 € par document, donc 3 × 5 € = 15 €. Source : article 6
+4;1;Parking absent;ovh;juste;0.87;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 1
+4;2;Parking absent;ovh;juste;1.23;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 1
+4;3;Parking absent;ovh;juste;0.98;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 1
+5;1;Amendes en cours;ovh;juste;0.98;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 6
+5;2;Amendes en cours;ovh;juste;0.88;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 6
+5;3;Amendes en cours;ovh;juste;1.03;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 6
+6;1;Console 10 ans;ovh;juste;0.73;Non, les enfants de moins de 12 ans doivent être accompagnés d'un adulte pour utiliser les consoles. Source : article 9
+6;2;Console 10 ans;ovh;juste;14.05;Non, les enfants de moins de 12 ans doivent être accompagnés d'un adulte pour utiliser les consoles. Source : article 9.
+6;3;Console 10 ans;ovh;juste;9.7;Non, les enfants de moins de 12 ans doivent être accompagnés d'un adulte pour utiliser les consoles. Source : article 9.
+7;1;Détournement wifi;ovh;juste;1.45;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 8
+7;2;Détournement wifi;ovh;juste;0.88;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 8
+7;3;Détournement wifi;ovh;juste;1.01;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 8
+8;1;Impression couleur;ovh;juste;0.55;Une impression en couleur coûte 0,50 € la page. Source : article 8.
+8;2;Impression couleur;ovh;juste;0.61;Une impression en couleur coûte 0,50 € la page. Source : article 8.
+8;3;Impression couleur;ovh;juste;0.68;Une impression en couleur coûte 0,50 € la page. Source : article 8.
+9;1;Ouvert dimanche;ovh;juste;1.78;Non, la médiathèque est fermée le dimanche. Les horaires d'ouverture sont : mardi et jeudi de 14 h à 18 h 30, mercredi de 10 h à 18 h 30, vendredi de 14 h à 19 h, samedi de 10 h à 17 h. Source : article 1
+9;2;Ouvert dimanche;ovh;juste;5.54;Non, la médiathèque est fermée le dimanche. Les horaires d'ouverture sont indiqués à l'article 1.  Source : article 1
+9;3;Ouvert dimanche;ovh;juste;2.28;Non, la médiathèque est fermée le dimanche. Elle est également fermée le lundi et les jours fériés, ainsi que les deux premières semaines d'août. Source : article 1
+10;1;Inscription autre ville;ovh;juste;1.31;Non, l'inscription coûte 12 € par an pour les adultes non résidents de Villars-sur-Furan. Elle est gratuite pour les habitants de la commune et pour les moins de 18 ans. Source : article 2.
+10;2;Inscription autre ville;ovh;juste;1.5;Non, l'inscription coûte 12 € par an pour les adultes non résidents de Villars-sur-Furan. Elle est gratuite pour les moins de 18 ans. Source : article 2
+10;3;Inscription autre ville;ovh;juste;1.46;L'inscription est gratuite pour les moins de 18 ans, mais elle coûte 12 € par an pour les adultes hors de Villars-sur-Furan. Source : article 2.

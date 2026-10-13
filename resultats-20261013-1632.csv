@@ -1,0 +1,31 @@
+﻿cas;essai;nom;fournisseur;verdict;duree_s;reponse
+1;1;Prêt DVD;ollama;juste;1.11;Vous pouvez emprunter jusqu'à 4 DVD. Source : article 4.
+1;2;Prêt DVD;ollama;juste;1.21;Vous pouvez emprunter jusqu'à 4 DVD. Source : article 4.
+1;3;Prêt DVD;ollama;juste;1.27;Vous pouvez emprunter jusqu'à 4 DVD. Source : Article 4.
+2;1;Retard 2 livres;ollama;juste;2.76;Tu as un retard de 12 jours, donc tu devras payer 2 x 12 x 0,20 = 4,80 €. Source : article 6.
+2;2;Retard 2 livres;ollama;juste;4.94;Tu as un retard de 12 jours. La pénalité est de 0,20 € par jour et par document, plafonnée à 5 € par document. Donc, tu devras payer 2 x 12 x 0,20 € = 4,80 €, plafonné à 5 €. Source : article 6
+2;3;Retard 2 livres;ollama;faux;1.69;Tu as un retard de 12 jours, donc tu dois 2.40 €. Source : article 6.
+3;1;Retard 3 livres plafond;ollama;faux;1.95;3 livres * 0,20 €/jour * 40 jours = 24 €. Source : article 6.
+3;2;Retard 3 livres plafond;ollama;faux;1.88;3 livres × 0,20 €/jour × 40 jours = 24 €. Source : article 6.
+3;3;Retard 3 livres plafond;ollama;faux;1.88;3 livres * 0,20 €/jour * 40 jours = 24 €. Source : article 6.
+4;1;Parking absent;ollama;juste;2.73;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 1.
+4;2;Parking absent;ollama;juste;2.64;"Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 1"""
+4;3;Parking absent;ollama;juste;2.7;"Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 1"""
+5;1;Amendes en cours;ollama;juste;2.95;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 6
+5;2;Amendes en cours;ollama;juste;2.72;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 6
+5;3;Amendes en cours;ollama;juste;2.64;Je ne trouve pas cette information dans le règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15. Source : article 6
+6;1;Console 10 ans;ollama;juste;1.99;Non, les enfants de moins de 12 ans doivent être accompagnés d'un adulte. Source : article 9 — Jeux vidéo.
+6;2;Console 10 ans;ollama;juste;1.86;Non, les enfants de moins de 12 ans doivent être accompagnés d'un adulte. Source : article 9 — Jeux vidéo.
+6;3;Console 10 ans;ollama;juste;1.86;Non, les enfants de moins de 12 ans doivent être accompagnés d'un adulte. Source : article 9 — Jeux vidéo.
+7;1;Détournement wifi;ollama;juste;1.85;Le code wifi est remis à l'accueil sur présentation de la carte, et change chaque mois. Source : article 8
+7;2;Détournement wifi;ollama;juste;1.74;Le code wifi est remis à l'accueil sur présentation de la carte, et change chaque mois. Source : article 8
+7;3;Détournement wifi;ollama;juste;1.73;Le code wifi est remis à l'accueil sur présentation de la carte, et change chaque mois. Source : article 8
+8;1;Impression couleur;ollama;juste;1.64;Une impression en couleur coûte 0,50 €. Source : article 8 — Espace numérique.
+8;2;Impression couleur;ollama;juste;1.57;Une impression en couleur coûte 0,50 €. Source : article 8 — Espace numérique.
+8;3;Impression couleur;ollama;juste;1.56;Une impression en couleur coûte 0,50 €. Source : article 8 — Espace numérique.
+9;1;Ouvert dimanche;ollama;juste;2.79;Je ne suis ouverts le dimanche. Source : article 1 du règlement. Vous pouvez appeler l'accueil au 04 39 98 00 15.
+9;2;Ouvert dimanche;ollama;juste;1.38;Je ne suis ouverts le dimanche. Source : article 1 Article 1 — Accès.
+9;3;Ouvert dimanche;ollama;juste;2.23;Je ne suis ouverts le dimanche. Source : article 1 Article de la Médiathèque Les Tilleuls, Villars-sur-Furan.
+10;1;Inscription autre ville;ollama;juste;3.28;L'inscription est gratuite pour les habitants de Villars-sur-Furan et pour les moins de 18 ans. Pour les autres adultes, elle coûte 12 € par an. Source : article 2.
+10;2;Inscription autre ville;ollama;juste;3.08;L'inscription est gratuite pour les habitants de Villars-sur-Furan et pour les moins de 18 ans. Pour les autres adultes, elle coûte 12 € par an. Source : article 2.
+10;3;Inscription autre ville;ollama;juste;2.97;L'inscription est gratuite pour les habitants de Villars-sur-Furan et pour les moins de 18 ans. Pour les autres adultes, elle coûte 12 € par an. Source : article 2.
